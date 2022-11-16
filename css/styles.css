@@ -523,6 +523,34 @@ padding-bottom: 34px;
 
 /* Section 3 -----------FEATURE LISTS 
 --------------------------------------------------Чим ми займаємося*/
+/* -------------------SIGNAGES FOR PICTURES */
+
+.thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.thumb > .label {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 27px 0px;
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+
+
+font-weight: 700;
+line-height: 1.14px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+
+
+
+
 .feature-list-about {
   display: flex;
   flex-wrap: wrap;
