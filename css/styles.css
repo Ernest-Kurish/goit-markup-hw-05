@@ -95,6 +95,9 @@ body {
 
 .flex-element {
   width: calc((100% - 60px) / 3);
+
+  transition: 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-element:hover,
@@ -164,13 +167,6 @@ padding-bottom: 0px;
   gap: 10px;
 }
 
-/* .header-icon:hover {
-  background-color: red; 
-}
-
-.team-soc-link:hover .team-soc-icon {
-  fill: #ffffff;
-} */
 
 /* Remove Text Decorations */
 
@@ -183,6 +179,9 @@ padding-bottom: 0px;
   list-style: none;
   text-decoration: none;
   color: inherit;
+
+  transition: 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link {
@@ -290,6 +289,9 @@ padding-bottom: 34px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email:hover,
@@ -303,6 +305,9 @@ padding-bottom: 34px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone:hover,
@@ -371,6 +376,10 @@ padding-bottom: 34px;
   padding: 12px 24px;
   display: inline-block;
   border: 1px solid black;
+
+
+  transition: 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.primary {
@@ -585,6 +594,9 @@ margin-right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover,
@@ -692,7 +704,10 @@ margin-right: 0;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
+
+  transition: 
+  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 .client-logo-link:hover,
 .client-logo-link:focus {
@@ -702,14 +717,17 @@ margin-right: 0;
 
 .client-logo-icon {
   fill: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-logo-link:hover .client-logo-icon {
   fill: rgba(33, 150, 243, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-logo-link:focus .client-logo-icon {
   fill: rgba(33, 150, 243, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*-----------------------Section Portfolio --------------------*/
 
@@ -824,6 +842,9 @@ margin-right: 0;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+
+  transition: 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-logo {
