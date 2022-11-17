@@ -85,6 +85,132 @@ body {
   margin: 0 auto;
 }
 
+/* -------------------PORTFOLIO ANIMATION (moving up) ELEMENTS */
+.image-thumb {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+
+
+
+
+.overlay-portfolio {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(110%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 63px 24px;
+  background: rgba(33, 150, 243, 0.9);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flex-element:hover .overlay-portfolio,
+.flex-element:focus .overlay-portfolio {
+  transform: translateY(0%);
+}
+
+.overlay-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+
+/* .portfolio-thumb {
+  display: inline-block;
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 165, 0, 0.5);
+
+  opacity: 0;
+} */
+
+/* 
+
+.btn {
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  margin: 0;
+  padding: 10px 30px;
+  border-radius: 3px;
+  background-color: #008080;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+
+  overflow: hidden;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.btn::before,
+.btn::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+  background-size: contain;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn::before {
+  margin-right: 5px;
+
+  background-image: url('../images/bird.svg');
+}
+
+.btn:hover::before,
+.btn:focus::before {
+  transform: translateY(-35px);
+}
+
+.btn::after {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  background-image: url('../images/cat.svg');
+
+  transform: translateY(calc(-50% + 35px));
+}
+
+.btn:hover::after,
+.btn:focus::after {
+  transform: translateY(-50%);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #d87093;
+}
+
+
+
+*/
+
+
+
+
 /* ---------------- PORTFOLIO CONTAINERS ------------ */
 .flex-list {
   display: flex;
