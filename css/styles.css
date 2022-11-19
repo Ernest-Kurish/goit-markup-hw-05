@@ -111,6 +111,10 @@ body {
   transform: translateY(0%);
 }
 
+.portfolio-link:focus {
+
+}
+
 .overlay-text {
   font-family: "Roboto";
   font-style: normal;
@@ -120,87 +124,6 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
-/* .portfolio-thumb {
-  display: inline-block;
-  content: "";
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 165, 0, 0.5);
-
-  opacity: 0;
-} */
-
-/* 
-
-.btn {
-
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  border: none;
-  margin: 0;
-  padding: 10px 30px;
-  border-radius: 3px;
-  background-color: #008080;
-  color: #fff;
-  font: inherit;
-  cursor: pointer;
-
-  overflow: hidden;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.btn::before,
-.btn::after {
-  content: '';
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-
-  background-size: contain;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn::before {
-  margin-right: 5px;
-
-  background-image: url('../images/bird.svg');
-}
-
-.btn:hover::before,
-.btn:focus::before {
-  transform: translateY(-35px);
-}
-
-.btn::after {
-  position: absolute;
-  top: 50%;
-  left: 30px;
-  background-image: url('../images/cat.svg');
-
-  transform: translateY(calc(-50% + 35px));
-}
-
-.btn:hover::after,
-.btn:focus::after {
-  transform: translateY(-50%);
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #d87093;
-}
-
-
-
-*/
 
 /* ---------------- PORTFOLIO CONTAINERS ------------ */
 .flex-list {
@@ -603,12 +526,6 @@ padding-bottom: 34px;
 .button.secondary:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
