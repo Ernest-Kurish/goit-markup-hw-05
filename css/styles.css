@@ -404,14 +404,23 @@ padding-bottom: 34px;
   background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 
-  transition: opacity 500ms, visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 
+  opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+  visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 
-  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+  visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%);
+  transition: scale 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
